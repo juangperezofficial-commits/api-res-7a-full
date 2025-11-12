@@ -17,9 +17,9 @@ const subidas = multer({ storage: almacenamiento });
 router.get("/ruta-de-pruebas", ArticuloController.prueba);
 router.get("/curso", ArticuloController.curso);
 router.post("/crear", ArticuloController.crear);
-router.get("/aticulos/:ultimos?", ArticuloController.listar);
-router.get("/aticulo/:id", ArticuloController.mostrarUno);
-router.delete("/aticulo/:id", ArticuloController.borrar);
+router.get("/articulos/:ultimos?", ArticuloController.listar);
+router.get("/articulo/:id", ArticuloController.mostrarUno);
+router.delete("/articulo/:id", ArticuloController.borrar);
 router.put("/articulo/:id", ArticuloController.editar);
 
 // Ruta para subir la imagen
