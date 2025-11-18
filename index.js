@@ -41,8 +41,8 @@ app.get("/probando", (req, res) => {
         },
         {
             curo: "Master en React Native",
-            autor: "Manuel Hernandez Herrera",
-            url: "manuelhernandezweb.com.mx/master-react-native"
+            autor: "JuanGperez",
+            url: "https://api-res-7a-full.onrender.com"
         }]
     )
 
